@@ -10,6 +10,8 @@ spec:
         env:
           - name: foo
             value: we-are-in-dev
+          - name: bar
+            value: we-are-in-dev
         envFrom:
           - configMapRef:
               name: app-config
