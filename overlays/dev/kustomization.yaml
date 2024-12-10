@@ -6,7 +6,7 @@ bases:
 
 namespace: my-app-dev
 
-nameSuffix: -dev
+nameSuffix: -dev2
 
 patchesStrategicMerge:
 - deployment_env.yaml
